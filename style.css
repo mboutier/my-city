@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Roboto");
+
+
+
+body{
+  font-family: 'Merriweather', serif;
+  font-size: 23px;
+  margin: 0px;
+
+}
+h1, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size:  12px }
+
+h2{
+  color:rgba(50,50,50);
+  font-size:23px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.avatar{
+  border-radius: 50%;
+  height : 90px;
+  width : 90px;
+}
+.banner {
+  background-image:url(https://metropole.nantes.fr/files/images/vie-institutions/villes/nantes-vue-aerienne-1920.jpg);
+  background-size: cover;
+  background-position: center;
+  padding:150px 0px;
+  color:white;
+}
+
+.banner h1 {
+  color: whitesmoke;
+  font-size: 35px;
+}
+.banner h2 {
+  color:whitesmoke;
+  font-size: 23px;
+  font-weight: lighter;
+}
+.btn-red {
+  background-color: #6C1409;
+  color : white;
+  padding : 8px 30px;
+  border-radius: 4px;
+}
+
+.btn-red:hover{
+  background-color: #591108;
+  color : white;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+
+.card:hover { 
+  transform: scale(1.05); 
+  transition: .2s; 
+}
+
+.card img {
+  width: 320px;
+  height: 110px;
+  border-radius: 6px
+}
+.card h3 {
+  color:rgba(70,70,70);
+  font-size:22px;
+}
+.container {
+  width:800px;
+  margin : 70px auto;
+}
+
+.card img:hover { 
+  transform: scale(1.05); 
+  transition: .2s; 
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
